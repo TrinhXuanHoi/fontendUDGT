@@ -15,6 +15,7 @@ import { GivePlateVehicleComponent } from './main/register/give-plate-vehicle/gi
 import { SearchGplxComponent } from './main/search/search-gplx/search-gplx.component';
 import { SearchViolationComponent } from './main/search/search-violation/search-violation.component';
 import { ComplaintComponent } from './main/complaint/complaint.component';
+import { RetractComponent } from './main/retract/retract.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ComplaintComponent } from './main/complaint/complaint.component';
     SearchGplxComponent,
     SearchViolationComponent,
     ComplaintComponent,
+    RetractComponent,
   ],
   imports: [
     BrowserModule,
